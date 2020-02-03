@@ -4,7 +4,7 @@
 
 http://54.198.239.217:8080/
 User:ec2-user
-Password: User:ec2-user
+Password: User:*******
 
 2.- Pipleline CI/CD maven JAVA en Jenkins
 http://54.198.239.217:8080/job/jenkins-maven-pipeline/
