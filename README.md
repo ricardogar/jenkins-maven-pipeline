@@ -1,15 +1,28 @@
 # simple-java-maven-app
 
-This repository is for the
-[Build a Java app with Maven](https://jenkins.io/doc/tutorials/build-a-java-app-with-maven/)
-tutorial in the [Jenkins User Documentation](https://jenkins.io/doc/).
+1.- Contenedor Docker en una instancia EC2  de AWS
 
-The repository contains a simple Java application which outputs the string
-"Hello world!" and is accompanied by a couple of unit tests to check that the
-main application works as expected. The results of these tests are saved to a
-JUnit XML report.
+http://54.198.239.217:8080/
+User:ec2-user
+Password: User:ec2-user
 
-The `jenkins` directory contains an example of the `Jenkinsfile` (i.e. Pipeline)
-you'll be creating yourself during the tutorial and the `scripts` subdirectory
-contains a shell script with commands that are executed when Jenkins processes
-the "Deliver" stage of your Pipeline.
+2.- Pipleline CI/CD maven JAVA en Jenkins
+http://54.198.239.217:8080/job/jenkins-maven-pipeline/
+
+3.- job(integrado) Build con Maven(java) y codigo GitHUb
+Job:
+http://54.198.239.217:8080/job/jenkins-maven-pipeline/
+
+GutHub:
+https://github.com/ricardogar/jenkins-maven-pipeline 
+
+4.- Job(integrado) UnitTest con Maven
+http://54.198.239.217:8080/job/jenkins-maven-pipeline/test_results_analyzer/
+
+5.- Job Deploy en un instancia EC2 Docker
+No implementado. Problemas con librerias maven.
+
+6.- Job Funcional Test
+No implementado. Problemas con librerias maven.
+
+Saludos
